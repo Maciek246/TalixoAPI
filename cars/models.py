@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.validators import MinValueValidator, MaxValueValidator
 
 CATEGORY = [
     ('E', 'Economical'),
@@ -36,8 +37,9 @@ class CarType(models.Model):
 
 class Car(models.Model):
     registration = models.CharField(max_length=9, unique=True)
-    max_passengers = models.PositiveIntegerField()
-    year_of_production = models.PositiveSmallIntegerField()
+    max_passengers = models.PositiveIntegerField(validators=[MinValueValidator(1)])
+    year_of_production = models.PositiveSmallIntegerField(validators=[MinValueValidator(1983),
+                                                                      MaxValueValidator(9999)])
     producer = models.ForeignKey(Producer, on_delete=models.CASCADE)
     model = models.CharField(max_length=60)
     type = models.ForeignKey(CarType, on_delete=models.CASCADE)

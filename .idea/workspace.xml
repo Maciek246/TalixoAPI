@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd1fe7fb-b952-4b49-a4cf-91bb2e8cd939" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TalixoAPI/api.py" afterPath="$PROJECT_DIR$/TalixoAPI/api.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TalixoAPI/urls.py" afterPath="$PROJECT_DIR$/TalixoAPI/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cars/models.py" afterPath="$PROJECT_DIR$/cars/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cars/serializers.py" afterPath="$PROJECT_DIR$/cars/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cars/views.py" afterPath="$PROJECT_DIR$/cars/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,9 +22,11 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cars/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="792">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,10 +34,10 @@
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cars/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="522">
+              <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
               <folding>
-                <element signature="e#0#77#0" expanded="true" />
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,13 +109,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cars/models.py" />
         <option value="$PROJECT_DIR$/TalixoAPI/settings.py" />
         <option value="$PROJECT_DIR$/cars/admin.py" />
-        <option value="$PROJECT_DIR$/cars/serializers.py" />
         <option value="$PROJECT_DIR$/TalixoAPI/urls.py" />
         <option value="$PROJECT_DIR$/TalixoAPI/api.py" />
         <option value="$PROJECT_DIR$/cars/views.py" />
+        <option value="$PROJECT_DIR$/cars/models.py" />
+        <option value="$PROJECT_DIR$/cars/serializers.py" />
       </list>
     </option>
   </component>
@@ -186,7 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Talixo/TalixoAPI" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ApexTest" factoryName="Apex Test">
@@ -410,14 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cars/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TalixoAPI/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -438,12 +431,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cars/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cars/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="522">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
           <folding>
-            <element signature="e#0#77#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
