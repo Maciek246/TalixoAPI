@@ -2,14 +2,14 @@
 
 ## How to run it
 
-**Clone a rep**
+**Clone a repo**
 
     git clone https://github.com/Maciek246/TalixoAPI.git
     
 **Create virtual environment and install requirements**
 
     python -m venv env
-    enc\scripts\activate
+    env\scripts\activate
     pip install -r requirements.txt
     
 **Make migration and create admin account**
